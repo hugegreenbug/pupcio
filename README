@@ -1,0 +1,20 @@
+						PUPC-IO: A parallel I/O library for UPC
+            						   Version 1.0, June 2012
+					               Hugh Greenberg <hng@lanl.gov>
+
+		     Based on the reference UPC-IO implementation from GWU: http://upc.gwu.edu/
+
+Changes
+---------------
+* Initial Release
+* Uses PLFS instead of POSIX : http://institute.lanl.gov/plfs/
+
+
+How To Use
+-----------------
+* Install PLFS
+* Modify the Makefiles to point to the correct berkeley upcc compiler and translator: http://upc.lbl.gov/
+* Modify the Makefiles to set NP to the number of threads you want to use
+* Type: make  to build the library and all of tests
+* Use the library in your UPC code.  Look at the tests for examples.
+
