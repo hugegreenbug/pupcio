@@ -1,4 +1,4 @@
-						PUPC-IO: A parallel I/O library for UPC
+					PLFS UPC-IO (PUPC-IO): A parallel I/O library for UPC
             						   Version 1.2, May 1st, 2013
 					               Hugh Greenberg <hng@lanl.gov>
 
